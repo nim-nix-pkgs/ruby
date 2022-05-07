@@ -42,11 +42,11 @@
     "src-ruby-master": {
       "flake": false,
       "locked": {
-        "lastModified": 1651160552,
-        "narHash": "sha256-kb4RAc54It/HiTFY7axcBVTiufnslO9gh80vFpR4U1k=",
+        "lastModified": 1651767958,
+        "narHash": "sha256-I+frCX+Hrhg23EjJLIzz29v6q5DgbrHD5o1OPobrttw=",
         "owner": "ryukoposting",
         "repo": "ruby-nim",
-        "rev": "16b04a10e687418383a0ab2a687d80c32d2271ff",
+        "rev": "461c7760b2652a616d59c49cb57f3e5a1f9fe91b",
         "type": "github"
       },
       "original": {
