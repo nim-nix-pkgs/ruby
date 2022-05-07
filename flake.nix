@@ -55,6 +55,14 @@
   inputs."ruby-v0_3_1".inputs.nixpkgs.follows = "nixpkgs";
   inputs."ruby-v0_3_1".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
+  inputs."ruby-v0_4_0".dir   = "v0_4_0";
+  inputs."ruby-v0_4_0".owner = "nim-nix-pkgs";
+  inputs."ruby-v0_4_0".ref   = "master";
+  inputs."ruby-v0_4_0".repo  = "ruby";
+  inputs."ruby-v0_4_0".type  = "github";
+  inputs."ruby-v0_4_0".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."ruby-v0_4_0".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@inputs:
   let 
     lib  = flakeNimbleLib.lib;
